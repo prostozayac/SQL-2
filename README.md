@@ -21,7 +21,8 @@ GROUP BY st.store_id, s.staff_id, s.last_name, s.first_name, ci.city
 HAVING COUNT(c.customer_id) > 300;
 ```
 Скриншот вывода выполнения кода
-[](./SQL-2/Z-1.png)
+
+	[](./SQL-2/Z-1.png)
 
 
 ### Задание 2
@@ -33,7 +34,8 @@ FROM film
 WHERE length > (SELECT AVG(length) FROM film);
 ```
 Скриншот вывода выполнения кода
-[](./SQL-2/Z-2.png)
+
+	[](./SQL-2/Z-2.png)
 
 
 ### Задание 3
@@ -51,4 +53,5 @@ ORDER BY total_amount DESC
 LIMIT 1;
 ```
 Скриншот вывода выполнения кода
-[](./SQL-2/Z-3.png)
+
+	[](./SQL-2/Z-3.png)
